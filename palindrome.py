@@ -7,4 +7,9 @@ def last(word):
 def middle(word):
     return word[1:-1]
 
-middle('yoijojo')
+def is_palindrome(word):
+    if len(word) <= 1:
+        return True
+    if first(word) != last(word):
+        return False
+    return is_palindrome(middle(word))    

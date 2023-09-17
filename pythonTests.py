@@ -53,7 +53,8 @@ def compare(x, y):
         return 1
     else:
         return -1
-result = compare(5,3) # print(result), Output will be 1.
+result = compare(5,3) 
+# print(result), Output will be 1.
 
 
 
